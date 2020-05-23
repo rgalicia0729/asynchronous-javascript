@@ -1,0 +1,27 @@
+{
+  "name": "asynchronous-javascript",
+  "version": "1.0.0",
+  "description": "Ejemplos de Asincronismo con JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "nodemon src/callback/index.js",
+    "callback:challenge": "nodemon src/callback/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgalicia0729/asynchronous-javascript.git"
+  },
+  "keywords": [],
+  "author": "Rigo Galicia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rgalicia0729/asynchronous-javascript/issues"
+  },
+  "homepage": "https://github.com/rgalicia0729/asynchronous-javascript#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
