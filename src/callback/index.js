@@ -14,3 +14,5 @@ const suma = (num1, num2) => {
 const calcular = (num1, num2, suma) => {
   return suma(num1, num2);
 }
+
+console.log(calcular(5, 6, suma));
